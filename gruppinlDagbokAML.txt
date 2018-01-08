@@ -1,0 +1,41 @@
+gruppinlDagbokAML
+
+Fyll på dagligen med anteckningar om förehavanden med arbetet.
+Ladda upp filen dagligen.
+Döp om dagboksinlämningen dagligen med uppladdningsdagens datum.
+
+- arbetsdatum
+- uppskattad tidsåtgång
+- innehåll
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+180104
+1 timme
+
+Genomläsning av innehållet i gemensamma inlämningsuppgiften.
+Lägger in all text i word-dokument för garanterad offline-tillgänglighet.
+Skapar egen mapp för arbetet. 
+Mailar till Cornelia. 
+
+-----------------------------------------------------------------
+
+180105
+3,5 timmar
+
+Gemensamt arbete i klassrum.
+Genomgång av innehållet. 
+Skapande av ER-diagram i Lucidchart. 
+Skapande av relationsdiagram i MySQL Workbench.
+Gör skärmklipp-bilder av både ER-diagrammet och relationsdiagrammet.
+Skapar repository i Github och lägger in alla nu befintliga filer.
+
+-----------------------------------------------------------------
+
+180108
+
+Gemensamt arbete i klassrum.
+Skapar dagbok, rekonstruerar tidsåtgång och innehåll för tidigare dagar.
+Installerar programvara som saknats för att kunna färdigställa uppgiften.
+
