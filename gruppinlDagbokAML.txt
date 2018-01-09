@@ -34,8 +34,32 @@ Skapar repository i Github och lägger in alla nu befintliga filer.
 -----------------------------------------------------------------
 
 180108
-
-Gemensamt arbete i klassrum.
+6 timmar
+Gemensamt arbete i klassrum inkl faktagenomgångar.
 Skapar dagbok, rekonstruerar tidsåtgång och innehåll för tidigare dagar.
 Installerar programvara som saknats för att kunna färdigställa uppgiften.
+Genererar databas från modellen.
+Skapar poster i tabellerna Kund, Leverantor, Produkt och Aktiv auktion. 
+Testar olika varianter av sökningar i Aktiv auktion och tabellen verkar fungera korrekt
+Skapar dokument för att spara all sql-kod.
+Skapar dokument för att notera ändringar mellan ER-diagram / relationsmodell / sql.
+
+
+-----------------------------------------------------------------
+
+180109
+3 timmar i klassrum
+Gemensamt arbete i klassrum inkl faktagenomgång.
+Genomgång: 
+- koppling relationsmodell - .sql-script.
+- genomgång/repetition av skapa script för "create" och "insert" 
+- genomgång/repetition av SELECT.
+- genomgång av JOIN.
+
+Arbete: 
+skapar .sql för att kunna lagra alla CREATE  och INSERT.
+Funkar att söka i Bud, och hitta pågående auktioner, budgivning etc.
+MEN Bud 8 får fel kund-id. 
+
+Letar rätt på länkar till vyer, triggers, procedurer och integritet för att kunna läsa själv.
 
