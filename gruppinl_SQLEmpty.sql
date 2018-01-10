@@ -1,1 +1,0 @@
-SELECT * FROM gruppinlamning_relationmodel.leverantor;

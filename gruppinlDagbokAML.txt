@@ -48,7 +48,7 @@ Skapar dokument för att notera ändringar mellan ER-diagram / relationsmodell / s
 -----------------------------------------------------------------
 
 180109
-3 timmar i klassrum
+3 timmar i klassrum + 3 timmar hemma.
 Gemensamt arbete i klassrum inkl faktagenomgång.
 Genomgång: 
 - koppling relationsmodell - .sql-script.
@@ -63,3 +63,34 @@ MEN Bud 8 får fel kund-id.
 
 Letar rätt på länkar till vyer, triggers, procedurer och integritet för att kunna läsa själv.
 
+Hemma: genomgång av exempel från föreläsningen. 
+Förstår inte riktigt på egen hand, helt klart. Behöver förklaring / guidning av person, parallellt med att jobba själv.
+----------------------------------------------------------------
+
+180110
+
+8 timmar gemensamt + 2 timmar hemma 
+Arbete + genomgång.
+
+Genomgång: 
+
+- select/join.
+- integritet (hade varit bra med den förståelsen redan under arbetet med modellen)
+- skapa vy
+
+Arbete:
+
+Lägger in alla tidigare ändringar i modellen, genererar DB på nytt och lägger in alla värden.
+Försök att skapa procedur att lägga in poster i tabellen. Genomgående problem med kopplingen kolumn / värde. Ingen fungerande procedur än.
+Jobbar parallellt med w3school för att försöka förstå och koppla till just vår modell.
+Får guidning i hur databas etc skapas när man utgår från .sql i sin mapp (hade varit bra att förstå vikten av det på ett mycket tidigare stadium).
+Eget arbete hemma - får guidning i skapande av script för att beräkna provision samt ytterligare selects i joinade tabeller.
+
+Kvar på uppgiften:
+
+Triggers - fortfarande osäkert.
+Beräkna provision - kod på väg.
+Procedurer - Dan skall fixa.
+Fler vyer - vet hur vi skall göra.
+Säkerställa att sql-koden är aktuell och i korrekt format - vet hur vi skall göra.
+Kontrollera att vi har samlad .sql-kod för att besvara frågorna i inlämningsuppgiften - vet hur vi skall göra.
