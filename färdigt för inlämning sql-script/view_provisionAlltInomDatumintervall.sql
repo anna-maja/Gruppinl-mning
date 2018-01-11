@@ -1,4 +1,9 @@
-select slutpris * provisionProcent as PengarTillGunnar
+CREATE VIEW `provisionAlltInomDatumintervall` AS
+
+select 
+slutpris * provisionProcent as PengarTillGunnar,
+slutDatum
+
 from gruppinlamning_relationmodel.aktiv_auktion
 
 
@@ -9,4 +14,10 @@ on gruppinlamning_relationmodel.aktiv_auktion.Produkt_ID_ArtNr = gruppinlamning_
 inner join gruppinlamning_relationmodel.leverantor
 on gruppinlamning_relationmodel.produkt.Leverantor_id_OrganisationsNummer = gruppinlamning_relationmodel.leverantor.id_OrganisationsNummer
 
-where slutPris is not null;
+where 
+slutPris is not null 
+and
+(startDatum > '2018-01-08 08:00:00'
+and slutDatum < '2018-01-10 16:59:59')
+;
+

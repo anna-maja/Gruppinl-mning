@@ -94,3 +94,20 @@ Procedurer - Dan skall fixa.
 Fler vyer - vet hur vi skall göra.
 Säkerställa att sql-koden är aktuell och i korrekt format - vet hur vi skall göra.
 Kontrollera att vi har samlad .sql-kod för att besvara frågorna i inlämningsuppgiften - vet hur vi skall göra.
+
+-------------------------------------------------
+180111
+
+6.5 timmar gemensamt + 2 timmar hemma 
+
+Jobbar vidare.
+All väsentlig kod är klar. 
+Får bekräftat att inlämningen inte behöver innehålla triggers, eftersom vi trots många timmars arbete inte lyckas få det att fungera och inte förstår varför. 
+Får bekräftat att i de fall vi inte har korrekt och körbar kod, kan vi komplettera med kommentarer i scripten. På så sätt kommer Dan ändå att förstå hur vi resonerat.
+
+Cornelia OK-ar att om jag med hjälp lyckas lösa problemet med triggers, kan jag på eget bevåg lägga till det scriptet i koden som skall lämnas in.
+
+Eget arbete: 
+Säkerställer att alla sparade script har aktuella versioner, de ligger nu sparade i en enda mapp tillsammans med skärmklippet över relationsmodellen.
+
+
