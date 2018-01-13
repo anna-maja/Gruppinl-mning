@@ -1,15 +1,8 @@
-
-DROP TRIGGER `gruppinlamning_relationModel`.`aktiv_auktion_BEFORE_DELETE` IF EXISTS
-DELIMITER //
-CREATE DEFINER = CURRENT_USER 
-TRIGGER `gruppinlamning_relationModel`.`aktiv_auktion_BEFORE_DELETE` 
-BEFORE DELETE 
-ON `aktiv_auktion` 
-FOR EACH ROW
-
+CREATE DEFINER = CURRENT_USER TRIGGER `gruppinlamning_relationModel`.`aktiv_auktion_AFTER_DELETE` AFTER DELETE ON `aktiv_auktion` FOR EACH ROW
 BEGIN
 
-   -- Lägga in data i auktionshistorik
+
+-- Lägga in data i auktionshistorik
    -- I tabellen auktionshistorik vill jag lägga in, i dessa kolumner...
    INSERT INTO gruppinlamning_relationmodel.auktionshistorik
    (auktionID,
@@ -29,6 +22,6 @@ BEGIN
    OLD.Produkt_ID_ArtNr)
    ;
 
-END; //
 
-DELIMITER ;
+
+END

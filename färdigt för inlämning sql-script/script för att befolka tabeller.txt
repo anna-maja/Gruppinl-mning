@@ -10,12 +10,12 @@ INSERT INTO `gruppinlamning_relationmodel`.`kund` (`id_Kundnummer`, `namn`, `tel
 INSERT INTO `gruppinlamning_relationmodel`.`kund` (`id_Kundnummer`, `namn`, `telnr`) VALUES ('4', 'Fyran Fyransson', '074-747474');
 
 -- populate produkt
-INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ID_ArtNr`, `ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('101', 'SmÃ¶rkniv 111', 'KÃ¶ksredskap', '111');
-INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ID_ArtNr`, `ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('102', 'Stol 111', 'MÃ¶bler', '111');
+INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ID_ArtNr`, `ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('101', 'Smörkniv 111', 'Köksredskap', '111');
+INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ID_ArtNr`, `ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('102', 'Stol 111', 'Möbler', '111');
 INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('Tandborste 222', 'Hygienartiklar', '222');
-INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('Stol222', 'MÃ¶bler', '222');
-INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('SmÃ¶rkniv333', 'KÃ¶ksredskap', '333');
-INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('Stol333', 'MÃ¶bler', '333');
+INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('Stol222', 'Möbler', '222');
+INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('Smörkniv333', 'Köksredskap', '333');
+INSERT INTO `gruppinlamning_relationmodel`.`produkt` (`ProduktNamn`, `Kategori`, `Leverantor_id_OrganisationsNummer`) VALUES ('Stol333', 'Möbler', '333');
 
 -- populate aktiv auktion
 INSERT INTO `gruppinlamning_relationmodel`.`aktiv_auktion` (`id_auktionsnummer`, `startDatum`, `slutDatum`, `utropsPris`, `Produkt_ID_ArtNr`) VALUES ('1000', '2018-01-08 15:16:00', '2018-01-08 15:30:00', '1', '101');
